@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabuada.css">
+    <title>Tabuada</title>
+</head>
+<body>
+    <h1>Tabuada</h1><!--Título-->
+    <div class="numeros"><!--Campo para o usuário digitar o número para a tabuada-->
+        <label for="mult">Multiplicador:</label>
+        <input type="number" id="mult" placeholder="Digite o multiplicador">
+    </div>
+    <input type="button" value="Multiplicar" id="botao" onclick="multiplicar()"><!--Botão-->
+    <div class="resul" id="resul"></div><!--Campo para exibir o resultado-->
+    <script src="tabuada.js"></script>
+</body>
+</html>

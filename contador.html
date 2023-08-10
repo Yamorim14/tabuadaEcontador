@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contador.css">
+    <title>Contador</title>
+</head>
+<body>
+    <h1>Contador de Números</h1><!--Título-->
+    <div class="numeros"><!--Campo para digitar o início da contagem-->
+        <label for="inicio">Início:</label>
+        <input type="number" id="inicio" placeholder="Digite o número do início" required>
+    </div>
+    <div class="numeros"><!--Campo para digitar o final da contagem-->
+        <label for="fim">Final:</label>
+        <input type="number" id="fim" placeholder="Digite o número do fim">
+    </div>
+    <div class="numeros"><!--Campo para digitar de quanto em quanto vai contar-->
+        <label for="passo">Contagem:</label>
+        <input type="number" id="passo" placeholder="Digite de quanto quer contar">
+    </div>
+    <input type="button" value="Contar" id="botao" onclick="contar()"><!--Botão-->
+    <div class="resul" id="resul"></div><!--Campo para exibir o resultado-->
+    <script src="contador.js"></script>
+</body>
+</html>
